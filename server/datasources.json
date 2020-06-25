@@ -1,0 +1,18 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "",
+    "port": "",
+    "url": "mongodb+srv://wmangram:Mangram22@moviesdb-kc0pl.mongodb.net/MoviesDB?retryWrites=true&w=majority",
+    "database": "MoviesDB",
+    "password": "Mangram22",
+    "name": "mongo",
+    "user": "wmangram",
+    "connectTimeout": 30000,
+    "readTimeout": 30000,
+    "connector": "mongodb"
+  }
+}

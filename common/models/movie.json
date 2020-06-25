@@ -1,0 +1,36 @@
+{
+  "name": "movie",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "movieID": {
+      "type": "number",
+      "required": true
+    },
+    "favoriteMovie": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "userViewed": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "userRating": {
+      "type": "number"
+    },
+    "savedMovie": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
